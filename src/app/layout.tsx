@@ -23,13 +23,7 @@ return (
 );
 }
 
-function SideBar(){
-return(
 
-
-
-);
-}
 
 export default function RootLayout({
   children,
