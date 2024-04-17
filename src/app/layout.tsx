@@ -15,7 +15,8 @@ export const metadata = {
 
 function TopNav(){
 return (
- <nav className="flex items-center justify-between w-full p-4 text-x1 font-semibold border-b text-blue-700" >
+ <nav className="flex items-start justify-between w-full p-4 text-x1 font-semibold border-b text-blue-700" >
+  <img className="w-20 h-20"  src={"https://utfs.io/f/ab19b89a-7db1-461b-ac33-14565cb0d455-z6ex4z.jpg"} />
   <div>MTC Export</div>
   <div>Importacion</div>
   <div>Exportacion</div>
@@ -30,7 +31,7 @@ return (
  <nav className="flex items-center justify-between w-full p-4 text-x1 font-semibold border-b text-blue-700" >
   <div>MTC Export</div>
 
-  <div>Sign in</div>
+  <div>Sign in</div>  
  </nav>
 );
 }
