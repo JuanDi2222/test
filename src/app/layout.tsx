@@ -16,14 +16,24 @@ export const metadata = {
 function TopNav(){
 return (
  <nav className="flex items-center justify-between w-full p-4 text-x1 font-semibold border-b text-blue-700" >
-  <div>Barra de navegacion</div>
-
+  <div>MTC Export</div>
+  <div>Importacion</div>
+  <div>Exportacion</div>
+  <div>Administracion</div>
   <div>Sign in</div>
  </nav>
 );
 }
 
+function SideBar(){
+return (
+ <nav className="flex items-center justify-between w-full p-4 text-x1 font-semibold border-b text-blue-700" >
+  <div>MTC Export</div>
 
+  <div>Sign in</div>
+ </nav>
+);
+}
 
 export default function RootLayout({
   children,
